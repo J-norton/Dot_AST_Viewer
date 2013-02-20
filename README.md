@@ -20,7 +20,7 @@ After running your compiler using DotASTDisplay, you'll want to copy the output 
 
 To produce a PNG image from 'yourNamedFile.dot' file, issue the following command:
 
-    dot -Tpng models.dot > models.png
+    dot -Tpng yourNamedFile.dot > yourNamedFile.png
 
 ## Options
 
