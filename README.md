@@ -6,7 +6,12 @@ It consists of two components:
   1. **DotASTDisplay.java**
   2. **Node.java**
 
-Place these components in your miniJava package along with your Compiler.java.
+Place these components in your miniJava package along with your Compiler.java. Then in Compiler.java use the following code which is similar to Professor Prins's code:
+
+```java
+DotASTDisplay astDisplay = new DotASTDisplay();
+astDisplay.showTree(programAST);
+```
 
 **DotASTDisplay.java** is the actual visitor that will traverse your AST and output to stdout your AST in .dot format.
 
